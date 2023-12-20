@@ -1,12 +1,11 @@
-const accountId= 135455
-let accountName = 'Fahim'
-var accountPass = '12345'
+const accountId = 135455;
+let accountName = "Fahim";
+var accountPass = "12345";
 
-accountId= 333333;
-accountName= 'Sazid'
-accountPass= '000000'
+accountName = "Sazid";
+accountPass = "000000";
 
-console.table([accountId, accountName, accountPass])
+console.table([accountName, accountPass]);
 
 /*
  Prefer not to use var
