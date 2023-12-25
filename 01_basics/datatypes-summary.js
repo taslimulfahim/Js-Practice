@@ -31,18 +31,18 @@ let typeObj = {
 
 let typeArray = ["name: Fahim", "age, 23"];
 
-console.table([
-  typeof typeString,
-  typeof typeNumber,
-  typeof typeBoolean,
-  typeof typeNull,
-  typeof typeUndefined,
-  typeof typeSymbol,
-  typeof typebigInt,
-  typeof typeFunction,
-  typeof typeObj,
-  typeof typeArray,
-]);
+// console.table([
+//   typeof typeString,
+//   typeof typeNumber,
+//   typeof typeBoolean,
+//   typeof typeNull,
+//   typeof typeUndefined,
+//   typeof typeSymbol,
+//   typeof typebigInt,
+//   typeof typeFunction,
+//   typeof typeObj,
+//   typeof typeArray,
+// ]);
 
 // ─────────┼─────────────┤
 // │    0    │  'string'   │
@@ -54,4 +54,27 @@ console.table([
 // │    6    │  'bigint'   │
 // │    7    │ 'function'  │
 // │    8    │  'object'   │
-// │    9    │  'object' 
+// │    9    │  'object'
+
+// ++++++++++++++++++++++Memory+++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myReligionName = "Islam";
+
+let anotherName = myReligionName;
+
+anotherName = "Muslim";
+
+// console.log(myReligionName, anotherName)
+
+let userOne = {
+  name: "Fahim",
+  email: "Tafsanfahim732@gmail.com",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "TaslimuFahim@gmail.com";
+
+console.table([userOne, userTwo]);
