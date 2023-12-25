@@ -65,3 +65,12 @@ console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
+
+let fahim = 23;
+let gonnaFahim = fahim++;
+
+let sazid = 18;
+let gonnaSazid = ++sazid;
+console.table([fahim, gonnaFahim, sazid, gonnaSazid]);
