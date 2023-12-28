@@ -21,37 +21,49 @@ const regularUser = {
 const obj1 = { 1: "a", 2: "b" };
 const obj2 = { 3: "c", 4: "d" };
 
-const obj3 = Object.assign({}, obj1, obj2)
-const obj4 = { ...obj1, ...obj2 }
+const obj3 = Object.assign({}, obj1, obj2);
+const obj4 = { ...obj1, ...obj2 };
 
 // console.log(obj4)
 // console.log(obj3)
 
 const user = [
-    {
-        user1: 'Fahim',
-        id: 12345
-    },
-    {
-        user1: 'Fahim',
-        id: 12345
-    },
-    {
-        user1: 'Fahim',
-        id: 12345
-    },
-    {
-        user1: 'Fahim',
-        id: 12345
-    },
-    {
-        user1: 'Fahim',
-        id: 12345
-    }
-]
+  {
+    user1: "Fahim",
+    id: 12345,
+  },
+  {
+    user1: "Fahim",
+    id: 12345,
+  },
+  {
+    user1: "Fahim",
+    id: 12345,
+  },
+  {
+    user1: "Fahim",
+    id: 12345,
+  },
+  {
+    user1: "Fahim",
+    id: 12345,
+  },
+];
 // console.log(user[1].id)
 
-console.log(muslimDaily)
-console.log(Object.keys(muslimDaily))
-console.log(Object.values(muslimDaily))
-console.log(Object.entries(muslimDaily))
+// console.log(muslimDaily);
+// console.log(Object.keys(muslimDaily));
+// console.log(Object.values(muslimDaily));
+// console.log(Object.entries(muslimDaily));
+
+const course = {
+  courseName: "js in hindi",
+  price: "999",
+  courseInstructor: "Hitesh",
+};
+
+const { courseName, courseInstructor: sir, price } = course;
+// console.log(sir);
+
+ 
+
