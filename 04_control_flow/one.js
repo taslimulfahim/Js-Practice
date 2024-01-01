@@ -24,18 +24,39 @@ const temperature = 32;
 // if (balance > 500) console.log('test')
 
 // if (balance < 500) {
-//   console.log("greater than 500");
+//   console.log("less than 500");
 // } else if (balance < 750) {
-//   console.log("greater than 750");
+//   console.log("less than 750");
 // } else if (balance < 900) {
-//   console.log("greater than 900");
+//   console.log("less than 900");
 // } else {
 //   console.log("less than 1200");
 // }
 
-const userLoggedIn = true;
-const debitCard = true;
+// const userLoggedIn = true;
+// const debitCard = true;
+// const creditCard = false;
 
-if (userLoggedIn && debitCard) {
-  console.log("Allow to buy course");
-}
+// if (userLoggedIn && debitCard) {
+//   console.log("Allow to buy course");
+// }
+
+// if (userLoggedIn || creditCard) {
+//   console.log("Test");
+// }
+
+//* Nullish Coalescing Operator (??): null undefined
+
+// let val1;
+// val1 = 4 ?? 25;
+
+// console.log(val1);
+
+//* Ternary Operator
+
+// condition ? true : false
+
+const iceTeaPrice = 100;
+iceTeaPrice <= 80
+  ? console.log("Less than 80")
+  : console.log("Greater than 80");
