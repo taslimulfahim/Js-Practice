@@ -27,6 +27,3 @@ mapTest.set("AFG", "Afghanistan");
 for (const [i, id] of mapTest) {
   // console.log(i, id);
 }
-
-
-
